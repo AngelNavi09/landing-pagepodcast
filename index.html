@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podcast: Neurociencia del Desarrollo Cerebral</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #4CAF50;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+    .hero .cta {
+      display: inline-block;
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .hero .cta:hover {
+      background-color: #555;
+    }
+    main .section {
+      padding: 20px;
+      margin: 20px auto;
+      background-color: #f4f4f4;
+      border-radius: 10px;
+      max-width: 1200px;
+    }
+    main .section h2 {
+      color: #4CAF50;
+      font-weight: 600;
+    }
+    .neuroprotectores {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .neuroprotectores .card {
+      background-color: white;
+      padding: 15px;
+      border: 1px solid #ddd;
+      flex: 1 1 calc(30% - 30px);
+      margin: 15px 0;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .podcast-content {
+      text-align: center;
+    }
+    .podcast-content iframe {
+      width: 100%;
+      max-width: 900px;
+      height: 500px;
+      border: none;
+      border-radius: 10px;
+    }
+    .spotify-link {
+      display: inline-flex;
+      align-items: center;
+      background-color: #1DB954;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 50px;
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    .spotify-link:hover {
+      background-color: #17a74b;
+    }
+    .spotify-link img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    .social-icons a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+      margin: 0 10px;
+    }
+    form {
+      margin: 20px auto;
+      max-width: 600px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #45a049;
+    }
+    @media (max-width: 768px) {
+      .neuroprotectores .card {
+        flex: 1 1 100%;
+      }
+      nav ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#temas">Temas Clave</a></li>
+        <li><a href="#neuroprotectores">Neuroprotectores</a></li>
+        <li><a href="#podcast">Podcast</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero">
+    <h1>Neurociencia del Desarrollo Cerebral</h1>
+    <p>Descubre cómo cuidar tu cerebro y potenciar tus capacidades.</p>
+    <a href="#podcast" class="cta">Escucha el Podcast</a>
+  </div>
+  <main>
+    <section id="introduccion" class="section">
+      <h2>¿Por qué es importante este tema?</h2>
+      <p>El cerebro humano es el órgano más complejo y fascinante, en constante evolución desde la infancia hasta la adultez. Este podcast explora cómo podemos proteger y potenciar nuestro cerebro a través de hábitos saludables y el conocimiento.</p>
+    </section>
+    <section id="temas" class="section">
+      <h2>Temas Clave del Podcast</h2>
+      <ul>
+        <li>Etapas del desarrollo cerebral: Infancia, adolescencia, adultez.</li>
+        <li>El impacto del estrés, sueño y alimentación en el cerebro.</li>
+        <li>Relaciones interpersonales y su importancia en la salud mental.</li>
+        <li>Neurobiología del enamoramiento y las relaciones.</li>
+        <li>Efectos de la tecnología en la capacidad cognitiva.</li>
+      </ul>
+    </section>
+    <section id="neuroprotectores" class="section">
+      <h2>Cinco Neuroprotectores Fundamentales</h2>
+      <div class="neuroprotectores">
+        <div class="card">
+          <h3>Alimentación</h3>
+          <p>Una dieta balanceada puede marcar la diferencia en tu bienestar mental.</p>
+        </div>
+        <div class="card">
+          <h3>Sueño</h3>
+          <p>La calidad del sueño impacta directamente en el aprendizaje y la memoria.</p>
+        </div>
+        <div class="card">
+          <h3>Estrés</h3>
+          <p>Controlar el estrés mejora las conexiones neuronales y la salud general.</p>
+        </div>
+        <div class="card">
+          <h3>Ejercicio</h3>
+          <p>La actividad física estimula la creación de nuevas neuronas.</p>
+        </div>
+        <div class="card">
+          <h3>Cultivo Cerebral</h3>
+          <p>La lectura y el pensamiento crítico fortalecen el cerebro.</p>
+        </div>
+      </div>
+    </section>
+    <section id="podcast" class="section">
+      <h2>Escucha Ahora</h2>
+      <div class="podcast-content">
+        <iframe src="https://www.youtube.com/embed/cgB-vM2xRMU" title="5 Claves para Proteger y Mantener tu Cerebro Saludable | Especialista en Neurociencia | EP.7"></iframe>
+        <p>Sumérgete en una conversación fascinante sobre cómo cuidar tu cerebro. ¡Dale play!</p>
+        <a href="https://open.spotify.com/show/5eQLWSk" target="_blank" class="spotify-link">
+          <img src="icons\descarga-removebg-preview.png" alt="Spotify Logo"> Escuchar en Spotify
+        </a>
+      </div>
+    </section>
+    <section id="contacto" class="section">
+      <h2>Contacto</h2>
+      <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <textarea placeholder="Mensaje" rows="5" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </section>
+  </main>
+  <footer style="background-color: #333; color: white; padding: 20px 0; text-align: center;">
+    <div>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="icons\descarga__1_-removebg-preview.png" alt="Facebook" style="width: 40px; margin: 0 10px;">
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <img src="icons\png-transparent-twitter-x-logo-removebg-preview.png" alt="Twitter" style="width: 40px; margin: 0 10px;">
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="icons\b9f2a640b168cdb9f865185facee4cd3.png" alt="Instagram" style="width: 40px; margin: 0 10px;">
+      </a>
+    </div>
+    <p>&copy; 2024 Tu Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+  
+</body>
+</html>
